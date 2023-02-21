@@ -1,6 +1,6 @@
 const lampada = document.getElementById('lampada');
-const ligando = document.getElementById('ligarDesligar');
-
+const ligando = document.getElementById('ligar');
+const desligando = document.getElementById('desligar');
 const quebrando = document.getElementById('lampada');
 
 
@@ -11,17 +11,14 @@ function isLampBroken() {
 }
 
 function ligar() {
-    ligando.textContent = 'LIGAR';
     if (!isLampBroken()) {
         lampada.src = "./images/ligada.jpg";
         lampada.alt = "lâmpada ligada";
-        
     }
-   
 }
 
 function desligar() {
-    
+
     if (!isLampBroken()) {
         lampada.src = "./images/desligada.jpg";
         lampada.alt = "lâmpada desligada";
@@ -34,20 +31,9 @@ function quebrar() {
 
 }
 
-function ligardesligar(){
-if ( ligando.textContent == 'LIGAR' ){
-    ligar();
-    ligando.textContent = 'DESLIGAR';
-}else {
-    desligar();
-    ligando.textContent = 'LIGAR';
-}
 
-
-}
-
-ligando.addEventListener('click', ligardesligar);
-
+ligando.addEventListener('click', ligar);
+desligando.addEventListener('click', desligar);
 
 lampada.addEventListener('mouseover', ligar);
 lampada.addEventListener('mouseleave', desligar);
