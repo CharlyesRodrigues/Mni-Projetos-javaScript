@@ -2,9 +2,9 @@
 
 Nesse desafio  utilizei um só botão para ligar e desligar a lâmpada .
 
-+ LIGAR => É possível ligar através dos botões e passando o mouse por cima
-- DESLIGAR => É possível desligar através dos botões e passando o mouse por cima
-+ QUEBRAR => Ao clicar duas vezes sobre a lâmpada , ela quebra e desativa suas outras funcionalidades(ligar/desligar).
++ LIGAR => É possível ligar através do botÃO e passando o mouse por cima
+- DESLIGAR => É possível desligar através do botÃO e passando o mouse por cima
++ QUEBRAR => Ao clicar duas vezes sobre a lâmpada , ela quebra e desativa suas funcionalidades(ligar/desligar).
 
 _________________________________________________________________________________________________________________________________________________________________________
 
