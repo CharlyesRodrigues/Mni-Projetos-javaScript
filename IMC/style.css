@@ -9,9 +9,9 @@
 
 div {
 
-background-color:yellow;
+background-color: #ffcc00;
 
-height: 500px;
+height: 440px;
 width: 300px;
 border-radius: 20px;
 margin: auto ;
@@ -38,14 +38,25 @@ button{
     font-size:18px;
 }
 
+button:hover {
+    background-color:green;
+    border:none;
+    color:#111111;
+    font-size:18px;
+}
+
   .texto {
-    color:white;
+ 
+    color:#655312;
     margin:20px auto;
     background-color:#111111;
-    height:220px;
+    height:160px;
     width: 240px;
-    border-radius:10px
-   
+    border-radius:10px;
+    font-size: 25px;
+    display:flex;
+    justify-items:center;
+    align-items:center;
 }
 
 input {
@@ -55,3 +66,4 @@ input {
 .peso{
     margin-left:10px;
 }
+
