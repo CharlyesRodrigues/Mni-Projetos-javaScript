@@ -1,8 +1,6 @@
 const lampada = document.getElementById('lampada');
 const ligando = document.getElementById('ligarDesligar');
-
 const quebrando = document.getElementById('lampada');
-
 
 
 function isLampBroken() {
