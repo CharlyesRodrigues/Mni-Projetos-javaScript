@@ -6,7 +6,7 @@ function imc() {
     const altura = document.getElementById('altura').value;
     const peso = document.getElementById('peso').value;
     const resultado = document.getElementById('resultado');
-
+    
     const valorImc = (peso / (altura * altura)).toFixed(1);
 
     if (nome === "" | altura === "" | peso === "") {
@@ -38,9 +38,11 @@ function imc() {
 
             classificacao = 'com Obsesidade grau III. Cuidado !!!';
         }
+   
+               
 
-        resultado.textContent = `${nome} o seu IMC  é ${valorImc} e vc esta ${classificacao}`
-
+   resultado.textContent = `${nome} o seu IMC  é ${valorImc} e vc esta ${classificacao}`
+    
     }
 
 

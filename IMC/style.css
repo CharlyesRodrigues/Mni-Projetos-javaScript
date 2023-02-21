@@ -44,9 +44,17 @@ button:hover {
     color:#111111;
     font-size:18px;
 }
+#nome{
 
+    color: red !important;
+}
+
+#p1{
+
+  margin-top:10px;
+}
   .texto {
- 
+
     color:#655312;
     margin:20px auto;
     background-color:#111111;
