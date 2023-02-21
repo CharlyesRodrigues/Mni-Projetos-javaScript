@@ -9,12 +9,12 @@ turnOn[event.target.id]();
 
 }
 
-/*  Criando um objeto com  arrow function*/
+/*  Criando um objeto com  3   function*/
 const turnOn = {
 
-    'red' : ()=> img.src="./images/vermelho.png",
-    'yellow' : ()=>img.src="./images/amarelo.png",
-    'green' : ()=>img.src="./images/verde.png"
+    'red':    ()=> img.src="./images/vermelho.png",
+    'yellow': ()=>img.src="./images/amarelo.png",
+    'green':  ()=>img.src="./images/verde.png"
 
 }
 
