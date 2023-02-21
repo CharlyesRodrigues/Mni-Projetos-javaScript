@@ -1,6 +1,6 @@
-# 01 Lâmpada
+# Desafio da Lâmpada
 
-Neste  vídeo vemos como criar uma lâmpada com três ações:
+Nesse desafio  utilizei um só botão para ligar e desligar a lâmpada .
 
 + LIGAR 
 - DESLIGAR 
