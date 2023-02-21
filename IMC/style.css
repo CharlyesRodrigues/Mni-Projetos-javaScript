@@ -14,10 +14,10 @@ background-color:yellow;
 height: 500px;
 width: 300px;
 border-radius: 20px;
-margin:auto;
+margin: auto ;
 margin-top:10px;
 text-align:center;
-justify-items: right;
+margin-top: 100px;
 
 }
 header {
@@ -34,15 +34,14 @@ button{
     width:240px;
     height:30px;
     border-radius: 5px;
-   color:white;
-   font-size:18px;
+    color:white;
+    font-size:18px;
 }
 
   .texto {
     color:white;
     margin:20px auto;
     background-color:#111111;
-    border:solid;
     height:220px;
     width: 240px;
     border-radius:10px
