@@ -1,4 +1,4 @@
-const lampada = document.getElementById('lamapada');
+const lampada = document.getElementById('lampada');
 const ligando = document.getElementById('ligar');
 const desligando = document.getElementById('desligar');
 const quebrar = document.getElementById('lamapada');
