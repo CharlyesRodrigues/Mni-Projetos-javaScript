@@ -1,6 +1,6 @@
 const lampada = document.getElementById('lampada');
-const ligando = document.getElementById('ligar');
-const desligando = document.getElementById('desligar');
+const ligando = document.getElementById('ligarDesligar');
+
 const quebrando = document.getElementById('lampada');
 
 
@@ -31,9 +31,22 @@ function quebrar() {
 
 }
 
+function ligarDesligar(){
+if( ligando.textContent == 'LIGAR'){
 
-ligando.addEventListener('click', ligar);
-desligando.addEventListener('click', desligar);
+    ligar()
+    ligando.textContent = 'DESLIGAR'
+}else {
+
+    desligar();
+
+    ligando.textContent = 'LIGAR'
+}
+
+
+}
+ligando.addEventListener('click', ligarDesligar);
+
 
 lampada.addEventListener('mouseover', ligar);
 lampada.addEventListener('mouseleave', desligar);
