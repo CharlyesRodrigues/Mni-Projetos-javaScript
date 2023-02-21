@@ -3,7 +3,7 @@ const img = document.getElementById('img');
 const buttons = document.getElementById('buttons');
 
 
-const trafficLght =(event) =>{
+const trafficLight =(event) =>{
 
 turnOn[event.target.id]();
 
@@ -19,4 +19,4 @@ const turnOn = {
 }
 
 
-buttons.addEventListener ('click', trafficLght);
+buttons.addEventListener ('click', trafficLight);
