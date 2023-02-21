@@ -1,18 +1,22 @@
 const lampada = document.getElementById('lampada');
 const ligando = document.getElementById('ligar');
 const desligando = document.getElementById('desligar');
-const quebrar = document.getElementById('lamapada');
+const quebrando = document.getElementById('lampada');
 
 
 function ligar(){
 
-    alert ("Alguém esta tentando me ligar")
+   lampada.src = "./images/ligada.jpg";
+   lampada.alt = "lâmpada ligada";
 }
 function desligar(){
-
-    alert ("Alguém esta tentando me desligar")
+    lampada.src = "./images/desligada.jpg";
+    lampada.alt = "lâmpada desligada";
 }
 
 
-ligando.addEventListener('click', ligar)
-desligando.addEventListener('click',desligar)
+ligando.addEventListener('click', ligar);
+desligando.addEventListener('click',desligar);
+
+lampada.addEventListener('mouseover', ligar);
+lampada.addEventListener('mouseleave', desligar);
