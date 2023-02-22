@@ -15,3 +15,16 @@ main {
 .button {
     width: 80px;
 }
+
+#red:hover{
+background-color: red;
+color:white;
+}
+#yellow:hover{
+    background-color: yellow;
+
+}
+#green:hover{
+    background-color: green;
+
+}
