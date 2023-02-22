@@ -1,51 +1,51 @@
 
 const img = document.getElementById('img');
 const buttons = document.getElementById('buttons');
-let colorIndex = 0; 
+let colorIndex = 0;
 
-const trafficLight =(event) =>{
+const trafficLight = (event) => {
 
-turnOn[event.target.id]();
+    turnOn[event.target.id]();
 
 }
 
 /*  Criando um objeto com  3   function*/
 const turnOn = {
 
-    'red':    ()=> img.src="./images/vermelho.png",
-    'yellow': ()=>img.src="./images/amarelo.png",
-    'green':  ()=>img.src="./images/verde.png",
+    'red':       () => img.src = "./images/vermelho.png",
+    'yellow':    () => img.src = "./images/amarelo.png",
+    'green':     () => img.src = "./images/verde.png",
     'automatic': () => setInterval(changeColor, 1000)
 
 }
 
-const changeColor = ()=>{
+const changeColor = () => {
 
     const colors = ['red', 'yellow', 'green'];
     const color = colors[colorIndex];
     turnOn[color]();
     nextIndex();
-    
+
+}
+
+const nextIndex = () => {
+    /**
+     * 
+     * Exemplo de ternário com a mesma funcionalidade do IF a seguir
+     * 
+     *  colorIndex = colorIndex < 2 ? ++ colorIndex:0; 
+     * 
+     */
+
+    if (colorIndex < 2) {
+
+        colorIndex++
+
+    } else {
+
+        colorIndex = 0;
     }
 
-const nextIndex =()=>{
-/**
- * 
- * Exemplo de ternário com a mesma funcionalidade do IF a seguir
- * 
- *  colorIndex = colorIndex < 2 ? ++ colorIndex:0; 
- * 
- */
-
-    if (colorIndex < 2){
-
-    colorIndex ++
-
-}else {
-
-    colorIndex = 0;
-}
-
 
 }
 
@@ -54,4 +54,4 @@ const nextIndex =()=>{
 
 
 
-buttons.addEventListener ('click', trafficLight);
+buttons.addEventListener('click', trafficLight);
