@@ -4,7 +4,7 @@ Para isso utilizaremos recursos do javascript como:
 + Ternário, 
 - Funções do tipo arrow,
 + Funções armazenadas em objetos =>  para criar a chamada dinâmica
-- Temporizadores.
+- Temporizadores => Utilizei para fazer o semáforo de forma dinâmica.
 
 _________________________________________________________________________________________________________________________________________________________________________
 
