@@ -6,10 +6,12 @@ let colorIndex = 0;
 const trafficLight = (event) => {
 
     turnOn[event.target.id]();
+// Antes do comando acima podemos veirificar
+// os eventos de cada botão , através do coando
+// a seguir console.log(event)
+ }
 
-}
-
-/*  Criando um objeto com  3   function*/
+/*  Criando um objeto com  4   function*/
 const turnOn = {
 
     'red':       () => img.src = "./images/vermelho.png",
