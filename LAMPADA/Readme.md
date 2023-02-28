@@ -11,7 +11,8 @@ Para isso temos que interagir com elementos HTML, eventos e utilização de fun�
 
 
 _________________________________________________________________________________________________________________________________________________________________________
-# Veja como ficou meu projetinho e cuidado para não dar duplo clique e quebrar a lâmpada
+# Veja como ficou meu projetinho
+## cuidado para não dar duplo clique e quebrar a lâmpada !!!
 
 https://projetinholampada.netlify.app/
 
