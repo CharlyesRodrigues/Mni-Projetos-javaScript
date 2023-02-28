@@ -24,6 +24,8 @@ border-radius: 10px;
 display:flex;
 height: 50vh;
 width: 50vw;
+overflow:hidden;
+
 }
 .item{
 
