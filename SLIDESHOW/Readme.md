@@ -5,5 +5,5 @@ Nesse projeto irei utilizar ações de retroceder e avançar.
   + Funções do tipo arrow, 
   - Template string e
   + Manipulação de elementos HTML no DOM. 
-  #
+  
   Sempre que possível criando um código limpo e semântico.
