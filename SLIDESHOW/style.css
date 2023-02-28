@@ -7,6 +7,7 @@
 
 .container-slide {
 display:flex; 
+justify-content: space-between;
 height: 50vh;
 width: 50vw;
 background-color: black;
@@ -14,12 +15,12 @@ background-color: black;
 margin: 20vh auto ;
 border-radius: 10px;
 box-shadow: 0  25px 30px black;
-
+transition: all 1s;
 
 }
 .container-items{
-    position: absolute;
-background-color: red;
+position: absolute;
+border-radius: 10px;
 display:flex;
 height: 50vh;
 width: 50vw;
@@ -29,14 +30,34 @@ width: 50vw;
     height: 50vh;
     width: 50vw;  
 }
+
+.item:first-child{
+margin-left: -100%;
+
+}
+
 .item img {
     height: 50vh;
     width: 50vw;
-
+    border-radius:10px;
 }
 
 .action-button{
 font:bold 30px sans-serif;
+display:flex;
+justify-content : center;
+align-items:center;
+width: 50px;
+color: #00000000;
+user-select:none;
 z-index:1; 
 
+}
+
+.action-button:hover{
+color:white;
+background-color: #00000055;
+border-radius:10px;
+cursor:pointer;
+transition: all 1s;
 }
