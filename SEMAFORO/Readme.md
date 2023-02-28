@@ -8,7 +8,12 @@ Para isso utilizaremos recursos do javascript como:
 
 _________________________________________________________________________________________________________________________________________________________________________
 
+# Veja como ficou 
 
+https://projetinhofarol.netlify.app/
+
+#
+#
 ![image](https://user-images.githubusercontent.com/98665329/220488908-96b73fa6-de1b-4db1-8ba0-d7fe774b40c8.png)
 ![image](https://user-images.githubusercontent.com/98665329/220488957-526b602b-88c2-4383-9ef9-9985df6d5721.png)
 
