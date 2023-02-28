@@ -15,7 +15,7 @@ background-color: black;
 margin: 20vh auto ;
 border-radius: 10px;
 box-shadow: 0  25px 30px black;
-transition: all 1s;
+
 
 }
 .container-items{
@@ -28,7 +28,8 @@ width: 50vw;
 .item{
 
     height: 50vh;
-    width: 50vw;  
+    width: 50vw; 
+    transition: all 1s; 
 }
 
 .item:first-child{
