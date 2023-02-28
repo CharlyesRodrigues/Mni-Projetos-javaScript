@@ -32,4 +32,4 @@ container .innerHTML += `
 
 }
 
-loadImages(imagens, container);
+// loadImages(imagens, container);
