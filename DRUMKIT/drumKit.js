@@ -45,7 +45,14 @@ Object.keys(letras).forEach(criarDiv);
 
  const ativarDiv =(evento ) =>{
 const som = evento.target.id;
-tocarSom (som);
+const letraPermitida = letras.hasOwnProperty(som);
+
+if (letraPermitida){
+
+    tocarSom (som);
+}
+
+
  }
  
  exibir(letras);
