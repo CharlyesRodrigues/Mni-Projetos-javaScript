@@ -10,7 +10,7 @@ const letras = {
 'G': 'openhat.wav',
 'H': 'ride.wav',
 'J': 'snare.wav',
-'k': 'tink.wav',
+'K': 'tink.wav',
 'L': 'tom.wav' 
 
 }
@@ -56,7 +56,22 @@ div.addEventListener('transitionend',removeActive)
 
 
 const ativarDiv =(evento ) =>{
-const som = evento.target.id;
+    
+/* let som = '';
+
+if( evento.type === 'click'){
+som = evento.target.id;
+
+}else {
+
+ som = evento.key.toUpperCase();
+}                      
+
+Substituindo esse comando pelo ternário
+*/
+    
+const som = evento.type == 'click' ? evento.target.id:evento.key.toUpperCase();
+
 const letraPermitida = letras.hasOwnProperty(som);
 
 if (letraPermitida){
@@ -72,3 +87,4 @@ if (letraPermitida){
  document.getElementById('container').addEventListener('click', ativarDiv);
 
 
+window.addEventListener('keydown', ativarDiv);
