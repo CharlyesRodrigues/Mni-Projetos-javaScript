@@ -30,8 +30,8 @@ const letras = {
 
  }
 
- const exibir = (sons) => {
-Object.keys(sons).forEach(criarDiv);
+ const exibir = (letras) => {
+Object.keys(letras).forEach(criarDiv);
 
 
  }
