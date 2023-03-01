@@ -2,4 +2,12 @@ Neste projetinho, vamos realizar um dos desafios do site javascript30.com o DRUM
 + Objetos literais,
 - Arrow function, 
 + Ternário.
-E alguns eventos não muito comuns como por exemplo transitionend. Sempre com um código semântico e  limpo.
+E alguns eventos não muito comuns como por exemplo transitionend. 
+
+Procurando sempre fazer um código semântico e limpo.
+
+#
+#
+![image](https://user-images.githubusercontent.com/98665329/222246176-8b516e79-8d1b-4bd5-a67d-d5465eaa1f6f.png)
+
+# Agora veja como ficou a minha bateria
