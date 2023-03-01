@@ -3,6 +3,7 @@ Neste projetinho, vamos realizar um dos desafios do site javascript30.com o DRUM
 - Arrow function, 
 + Ternário.
 E alguns eventos não muito comuns como por exemplo transitionend. 
+
 Procurando sempre fazer um código semântico e limpo.
 
 #
