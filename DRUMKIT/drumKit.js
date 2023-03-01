@@ -43,13 +43,26 @@ Object.keys(letras).forEach(criarDiv);
       audio.play();
 }
 
- const ativarDiv =(evento ) =>{
+const adicionarEfeito =(som) =>{
+    document.getElementById(som).classList.add('active');
+}
+
+const removerEfeito =(som) => {
+const div = document.getElementById(som);
+const removeActive = () =>  div.classList.remove('active');
+div.addEventListener('transitionend',removeActive)
+
+}
+
+
+const ativarDiv =(evento ) =>{
 const som = evento.target.id;
 const letraPermitida = letras.hasOwnProperty(som);
 
 if (letraPermitida){
-
+ adicionarEfeito(som);
     tocarSom (som);
+    removerEfeito(som);
 }
 
 
