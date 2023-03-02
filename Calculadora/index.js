@@ -67,3 +67,32 @@ const selecionarOperador = (evento) => {
     }
 }
 operadores.forEach(operador => operador.addEventListener('click', selecionarOperador));
+
+const ativarIgual =()=>{
+calcular();
+operador = undefined;
+
+}
+
+document.getElementById('igual').addEventListener('click', ativarIgual)
+
+
+
+const  limparDisplay =()=>  display.textContent =''; 
+
+document.getElementById('limparDisplay').addEventListener('click', limparDisplay);
+
+const limparCalculo = () => {
+limparDisplay();
+operador = undefined ;
+novoNumero = true;
+numeroAnterior = undefined ;   
+
+}
+
+document.getElementById('limparCalculo').addEventListener('click', limparCalculo);
+
+const removerUltimoNumero = () => display.textContent = display.textContent.slice( 0 ,-1);
+
+
+document.getElementById('backspace').addEventListener('click',removerUltimoNumero );
