@@ -1,0 +1,17 @@
+* {
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+body{
+    background-image: url('./image/fundo.jpg'); 
+    background-position: center;
+    height: 500px;
+}
+.container {
+position:absolute;
+   display:flex;
+
+margina:auto;
+}
